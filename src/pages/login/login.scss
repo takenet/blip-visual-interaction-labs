@@ -1,0 +1,57 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+
+.login {
+  display: flex;
+  height: 100vh;
+  color: $color-neutral-dark-rooftop;
+
+  .body {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 16px;
+
+    .logo {
+      max-height: 64px;
+
+      img{
+        height: 100%;
+      }
+    }
+
+    .inputs {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .forgot-password {
+      align-self: flex-end;
+      text-decoration: none;
+    }
+
+    .actions {
+        display: flex;
+        gap: 16px;
+    }
+  }
+
+  .aside {
+    background: url(https://account.blip.ai/img/login-background.jpg) no-repeat
+      right;
+    background-size: cover;
+    width: 50%;
+  }
+
+  @media (max-width: 900px) {
+    .body {
+      width: 100%;
+    }
+    .aside {
+      display: none;
+    }
+  }
+}

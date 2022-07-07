@@ -1,0 +1,11 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+
+bds-paper {
+    height: 196px;
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
