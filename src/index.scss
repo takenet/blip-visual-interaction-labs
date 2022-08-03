@@ -1,3 +1,10 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+@import "~blip-ds/dist/collection/styles/_fonts.scss";
+@import "~blip-ds/dist/collection/styles/_media.scss";
+@import "~blip-ds/dist/collection/styles/_mixins.scss";
+@import "~blip-ds/dist/collection/styles/_resets.scss";
+@import "~blip-ds/dist/collection/styles/_zindex.scss";
+
 body {
   margin: 0;
   font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,7 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+.navbar {
+    width: 232px;
+    height: 100vh;
+    border-right: 1px solid $color-neutral-medium-wave;
+    padding: 32px 16px 16px 16px;
+}

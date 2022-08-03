@@ -1,0 +1,81 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+
+.back-area {
+  display: flex;
+  height: 100vh;
+  width: 88px;
+}
+
+.sidebar {
+  &-container {
+    width: 88px;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    background-color: $color-neutral-dark-onix;
+    padding: 24px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 2;
+    transition: width 0.2s ease-in-out;
+
+    .sidebar-content {
+      flex: 1 1 auto;
+      .sidebar-logo {
+        display: flex;
+        width: 100%;
+        padding-bottom: 24px;
+
+        img {
+          height: 37px;
+        }
+      }
+
+      .sidebar-user {
+        flex-direction: column;
+        padding-bottom: 20px;
+        height: 65px;
+
+        .user-name {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 8px;
+          overflow: hidden;
+        }
+        .config-user {
+          text-align: center;
+          height: 15px;
+        }
+      }
+    }
+
+    .hidden {
+      display: none;
+      overflow: hidden;
+      flex-wrap: nowrap;
+    }
+    .sidebar-item {
+      width: 100%;
+      gap: 8px;
+      display: flex;
+      padding: 16px 0;
+      align-items: center;
+      color: $color-neutral-light-whisper;
+      .item-primary {
+        flex: 1 1 auto;
+      }
+      .logout {
+        color: $color-disabled-error;
+      }
+    }
+  }
+}
+
+.sidebar-container:hover {
+  width: 300px;
+  .hidden {
+    display: flex;
+  }
+}

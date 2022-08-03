@@ -1,5 +1,5 @@
 import React from "react";
-import "./login.scss";
+import "./style.scss";
 import {Link} from 'react-router-dom';
 import {useNavigate} from 'react-router-dom';
 import logo from "../../assets/take_blip-logo.svg";
@@ -35,7 +35,7 @@ class Login extends React.Component {
           </Link>
           <div className="actions">
             <bds-button variant="tertiary">Cadastra-se grátis</bds-button>
-            <Link to="/homepage">
+            <Link to="/main">
               <bds-button>Entrar</bds-button>
             </Link>
             

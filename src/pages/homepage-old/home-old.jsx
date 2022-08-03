@@ -1,10 +1,10 @@
 import React from "react";
-import "./home.scss";
+import "./home-old.scss";
 import Header from "../../components/header/header";
 import Card from "../../components/cards/card";
 import {Link} from 'react-router-dom';
 
-export default class Home extends React.Component {
+export default class HomeOld extends React.Component {
   render() {
     return (
       <div className="home">
