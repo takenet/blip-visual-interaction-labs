@@ -1,7 +1,7 @@
 import React from "react";
 import "./home-old.scss";
-import Header from "../../components/header/header";
-import Card from "../../components/cards/card";
+import Header from "../../../components/header/header";
+import Card from "../../../components/cards/card";
 import {Link} from 'react-router-dom';
 
 export default class HomeOld extends React.Component {

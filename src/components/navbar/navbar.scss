@@ -1,7 +1,21 @@
 @import "~blip-ds/dist/collection/styles/_colors.scss";
 .navbar {
-    width: 232px;
-    height: 100vh;
-    border-right: 1px solid $color-neutral-medium-wave;
+  width: 232px;
+  height: 100vh;
+  border-right: 1px solid $color-neutral-medium-wave;
+  
+
+  &-content {
+    display: flex;
+    flex-direction: column;
     padding: 32px 16px 16px 16px;
+    gap: 4px;
+    width: 200px;
+    .divisor {
+      display: flex;
+      border-top: 1px solid $color-neutral-medium-wave;
+      height: 0px;
+      margin: 8px 0;
+    }
+  }
 }

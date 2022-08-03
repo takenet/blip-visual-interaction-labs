@@ -6,7 +6,7 @@ function NavbarItem(props) {
         <div className='navbar-item'>
             <div className='navbar-elements'>
                 <bds-icon name={props.icon}></bds-icon>
-                <bds-typo>{props.text}</bds-typo>
+                <bds-typo variant="fs-14">{props.text}</bds-typo>
             </div>
         </div>
     )

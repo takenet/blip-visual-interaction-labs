@@ -1,11 +1,54 @@
 @import "~blip-ds/dist/collection/styles/_colors.scss";
 
-bds-paper {
+.card {
     height: 196px;
     width: 188px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    padding: 8px 0;
+
+    &-header {
+        display: flex;
+        flex-direction: row;
+        height: 24px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    
+        .status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin: 8px 4px 8px 16px;
+            background-color: $color-primary-greens-true;
+        }
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px 4px;
+        gap: 8px;
+        flex: 1 1 auto;
+    }
+
+    &-footer {
+        display: flex;
+        flex-direction: row;
+        height: 28px;
+        padding: 4px 12px;
+        justify-content: space-between;
+        align-items: center;
+
+        .router-footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+    }
 }
+
+

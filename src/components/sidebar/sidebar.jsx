@@ -1,6 +1,7 @@
 import React from "react";
 import "./sidebar.scss";
-import Logo from '../../assets/blip_logo--light.svg';
+import {Link} from 'react-router-dom';
+import Logo from '../../assets/blip_logo--blue.svg';
 
 function Sidebar() {
   return (
@@ -20,16 +21,16 @@ function Sidebar() {
               <bds-typo class="hidden" variant="fs-10" bold="regular">Configuração da conta</bds-typo>
             </div>
           </div>
-          <div className="sidebar-item">
+          <Link to="/main/" className="sidebar-item">
             <bds-icon name="robot"></bds-icon>
             <bds-typo class="hidden item-primary" variant="fs-14" bold="regular">Chatbots</bds-typo>
             <bds-typo no-wrap="true" class="hidden" variant="fs-10" bold="regular">Portal</bds-typo>
-          </div>
-          <div className="sidebar-item">
+          </Link>
+          <Link to="/main/test" className="sidebar-item">
             <bds-icon name="agent"></bds-icon>
             <bds-typo class="hidden item-primary" variant="fs-14" bold="regular">Atendimento</bds-typo>
             <bds-typo no-wrap="true" class="hidden" variant="fs-10" bold="regular">Desk</bds-typo>
-          </div>
+          </Link>
           <div className="sidebar-item">
             <bds-icon name="business"></bds-icon>
             <bds-typo no-wrap="true" class="hidden item-primary" variant="fs-14" bold="regular">Contratos</bds-typo>

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/header/header";
+import Header from "../../../components/header/header";
 import "./style.scss";
 
 class Test extends React.Component {
@@ -25,6 +25,7 @@ class Test extends React.Component {
           <bds-select-option value="6">Noah Schnapp</bds-select-option>
         </bds-select-chips>
         <bds-input
+        style={{width: '100%'}}
           placeholder="nome completo"
           label=""
           disabled={false}

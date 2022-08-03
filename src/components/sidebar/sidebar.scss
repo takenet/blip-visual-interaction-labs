@@ -15,7 +15,7 @@
     flex-direction: column;
     top: 0;
     background-color: $color-neutral-dark-onix;
-    padding: 24px;
+    padding: 24px 0;
     box-sizing: border-box;
     position: fixed;
     z-index: 2;
@@ -25,8 +25,8 @@
       flex: 1 1 auto;
       .sidebar-logo {
         display: flex;
-        width: 100%;
-        padding-bottom: 24px;
+        height: 40px;
+        padding: 16px 24px;
 
         img {
           height: 37px;
@@ -57,18 +57,25 @@
       flex-wrap: nowrap;
     }
     .sidebar-item {
-      width: 100%;
       gap: 8px;
       display: flex;
-      padding: 16px 0;
+      height: 40px;
+      padding: 16px 24px;
       align-items: center;
+      justify-content: center;
       color: $color-neutral-light-whisper;
+      text-decoration: none;
       .item-primary {
         flex: 1 1 auto;
       }
       .logout {
         color: $color-disabled-error;
       }
+    }
+    .sidebar-item:hover {
+      background-color: $color-neutral-dark-eclipse;
+      color: $color-neutral-medium-elephant;
+      cursor: pointer;
     }
   }
 }
