@@ -8,7 +8,6 @@ function Header(props) {
           <bds-icon size="x-large" name={props.icon}></bds-icon>
           <bds-typo variant="fs-24" bold="bold" margin="false">{props.title}</bds-typo>
       </div>
-      <div className="header-config"></div>
     </div>
   );
 }

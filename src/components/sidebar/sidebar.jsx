@@ -21,7 +21,7 @@ function Sidebar() {
               <bds-typo class="hidden" variant="fs-10" bold="regular">Configuração da conta</bds-typo>
             </div>
           </div>
-          <Link to="/main/" className="sidebar-item">
+          <Link to="/main/chatbot" className="sidebar-item">
             <bds-icon name="robot"></bds-icon>
             <bds-typo class="hidden item-primary" variant="fs-14" bold="regular">Chatbots</bds-typo>
             <bds-typo no-wrap="true" class="hidden" variant="fs-10" bold="regular">Portal</bds-typo>

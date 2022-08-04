@@ -1,12 +1,8 @@
 import React from "react";
 import "./style.scss";
 import {Link} from 'react-router-dom';
-import {useNavigate} from 'react-router-dom';
 import logo from "../../assets/take_blip-logo.svg";
 
-function enterBlip() {
-
-}
 
 class Login extends React.Component {
   render() {
@@ -35,7 +31,7 @@ class Login extends React.Component {
           </Link>
           <div className="actions">
             <bds-button variant="tertiary">Cadastra-se grátis</bds-button>
-            <Link to="/main">
+            <Link to="/main/chatbot">
               <bds-button>Entrar</bds-button>
             </Link>
             
