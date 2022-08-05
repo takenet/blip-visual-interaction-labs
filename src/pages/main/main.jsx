@@ -3,7 +3,7 @@ import Sidebar from "../../components/sidebar/sidebar";
 import Navbar from "../../components/navbar/navbar";
 import "./style.scss";
 import BotRoutes from "./chatbots/bot-routes";
-import ConfigRoutes from "./account/configs-routes";
+import AccountRoutes from "./account/account-routes";
 
 export default class Main extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class Main extends React.Component {
         <Navbar />
         <div className="pages-routes">
             <BotRoutes />
-            <ConfigRoutes />
+            <AccountRoutes />
         </div>
       </div>
     );
