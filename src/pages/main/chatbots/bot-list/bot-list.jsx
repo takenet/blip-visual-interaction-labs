@@ -34,6 +34,7 @@ export default class BotList extends React.Component {
           <Link to="/main/chatbot/bot-detail">
             <Card />
           </Link>
+        
         </div>
       </div>
     );

@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/navbar";
 import "./style.scss";
 import BotRoutes from "./chatbots/bot-routes";
 import AccountRoutes from "./account/account-routes";
+import TestRoutes from "./test/test-routes";
 
 export default class Main extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class Main extends React.Component {
         <div className="pages-routes">
             <BotRoutes />
             <AccountRoutes />
+            <TestRoutes />
         </div>
       </div>
     );

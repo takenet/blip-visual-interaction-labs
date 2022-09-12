@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../../components/header/header";
 import "./style.scss";
 
-class Test extends React.Component {
+class Store extends React.Component {
   render() {
     return (
       <div>
@@ -48,4 +48,4 @@ class Test extends React.Component {
   }
 }
 
-export default Test;
+export default Store;
