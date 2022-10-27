@@ -1,6 +1,7 @@
 @import "~blip-ds/dist/collection/styles/_colors.scss";
 
 .login {
+  position: relative;
   display: flex;
   height: 100vh;
   color: $color-neutral-dark-rooftop;
@@ -54,4 +55,7 @@
       display: none;
     }
   }
+
 }
+
+

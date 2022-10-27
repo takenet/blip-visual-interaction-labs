@@ -6,9 +6,7 @@ import App from './App';
 import { applyPolyfills, defineCustomElements } from 'blip-ds/loader';
 
 ReactDOM.render(
-  <React.StrictMode>
-      <App />
-  </React.StrictMode>,
+      <App />,
   document.getElementById('root')
 );
 

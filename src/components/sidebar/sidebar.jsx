@@ -106,6 +106,7 @@ function Sidebar() {
           </div>
         </div>
         <div className="sidebar-item">
+          <Link to="/"  className="sidebar-item">
           <bds-icon size="medium" class="logout" name="status"></bds-icon>
           <bds-typo
             no-wrap="true"
@@ -115,6 +116,8 @@ function Sidebar() {
           >
             Sair do sistema
           </bds-typo>
+          </Link>
+          
         </div>
       </div>
       <div className="back-area"></div>

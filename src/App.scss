@@ -1,0 +1,17 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+.paper-button {
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    bottom: 20px;
+  
+    bds-paper {
+      padding: 20px;
+      border-radius: 50%;
+      background-color: $color-primary-purples-acai;
+  
+      bds-icon {
+        color: $color-neutral-light-snow;
+      }
+    }
+  }

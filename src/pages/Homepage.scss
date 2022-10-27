@@ -1,0 +1,19 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+
+.homepage {
+    height: 99vh;
+    background-color: $color-neutral-light-whisper;
+}
+.homepage-banner {
+    background-color: $color-primary-main;
+    height: 300px;
+
+    bds-typo {
+        color: $color-neutral-light-snow;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

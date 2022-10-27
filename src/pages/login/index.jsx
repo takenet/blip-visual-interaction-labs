@@ -26,7 +26,7 @@ class Login extends React.Component {
             <bds-input label="E-mail *"></bds-input>
             <bds-input label="Senha *"></bds-input>
           </div>
-          <Link to="/" className="forgot-password">
+          <Link to="/login-portal" className="forgot-password">
             <bds-typo variant="fs-14" bold="bold">Esqueceu sua senha?</bds-typo>
           </Link>
           <div className="actions">
