@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkplataform=self.webpackChunkplataform||[]).push([[8970],{8970:function(n,t,l){l.r(t),l.d(t,{bds_expansion_panel:function(){return s}});var r=l(6189),s=function(){function n(n){(0,r.r)(this,n)}return n.prototype.render=function(){return(0,r.h)(r.H,null,(0,r.h)("slot",null))},n}();s.style="*{-webkit-transition:all 0.5s;-moz-transition:all 0.5s;transition:all 0.5s}:host{display:block}"}}]);
+//# sourceMappingURL=8970.c68d489a.chunk.js.map
