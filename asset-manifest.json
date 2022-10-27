@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blip-visual-interaction-labs/static/css/main.cca58503.css",
-    "main.js": "/blip-visual-interaction-labs/static/js/main.87dff9ff.js",
+    "main.js": "/blip-visual-interaction-labs/static/js/main.d123329d.js",
     "polyfills-dom.js": "/blip-visual-interaction-labs/static/js/polyfills-dom.bea0f2a3.chunk.js",
     "polyfills-core-js.js": "/blip-visual-interaction-labs/static/js/polyfills-core-js.f6d15066.chunk.js",
     "static/js/727.f5fe9a45.chunk.js": "/blip-visual-interaction-labs/static/js/727.f5fe9a45.chunk.js",
@@ -83,7 +83,7 @@
     "index.html": "/blip-visual-interaction-labs/index.html",
     "static/media/blip_logo--blue.svg": "/blip-visual-interaction-labs/static/media/blip_logo--blue.4944ba2edad6f9d7eac469e690c347c1.svg",
     "main.cca58503.css.map": "/blip-visual-interaction-labs/static/css/main.cca58503.css.map",
-    "main.87dff9ff.js.map": "/blip-visual-interaction-labs/static/js/main.87dff9ff.js.map",
+    "main.d123329d.js.map": "/blip-visual-interaction-labs/static/js/main.d123329d.js.map",
     "polyfills-dom.bea0f2a3.chunk.js.map": "/blip-visual-interaction-labs/static/js/polyfills-dom.bea0f2a3.chunk.js.map",
     "polyfills-core-js.f6d15066.chunk.js.map": "/blip-visual-interaction-labs/static/js/polyfills-core-js.f6d15066.chunk.js.map",
     "727.f5fe9a45.chunk.js.map": "/blip-visual-interaction-labs/static/js/727.f5fe9a45.chunk.js.map",
@@ -162,6 +162,6 @@
   },
   "entrypoints": [
     "static/css/main.cca58503.css",
-    "static/js/main.87dff9ff.js"
+    "static/js/main.d123329d.js"
   ]
 }
