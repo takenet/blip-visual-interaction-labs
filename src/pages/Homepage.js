@@ -73,6 +73,22 @@ function Homepage() {
         flex-wrap="wrap"
         margin="t-12"
       >
+        {/* Card for rebranding */}
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <Link to="/rebranding">
+            <bds-paper style={TemplateTeste}>
+              <bds-grid
+                style={AlturaCard}
+                xxs="12"
+                align-items="center"
+                justify-content="center"
+              >
+                <bds-typo bold="bold">Rebranding</bds-typo>
+              </bds-grid>
+            </bds-paper>
+          </Link>
+        </motion.div>
+
         {/* Card for blip-ds-test-react */}
         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
           <Link to="/blip-ds-test-react">
