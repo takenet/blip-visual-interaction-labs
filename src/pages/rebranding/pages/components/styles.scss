@@ -1,0 +1,21 @@
+@import "~blip-ds/dist/collection/styles/_colors.scss";
+
+.page {
+  background-color: $color-surface-3;
+  min-height: 100vh;
+  position: relative;
+
+  & .bt-theme{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  & .content {
+    background-color: $color-surface-1;
+  }
+
+  & .text-content {
+    color: $color-content-default;
+  }
+}
