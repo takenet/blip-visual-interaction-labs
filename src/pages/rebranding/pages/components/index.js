@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.scss";
 
-export function Components() {
+export function ComponentsTest() {
   const [themeSelected, setThemeSelected] = useState('white');
   const r = document.querySelector(':root');
   const toggleComponent = (id) => {
