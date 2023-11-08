@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkplataform=self.webpackChunkplataform||[]).push([[7444],{7444:function(n,r,t){t.r(r),t.d(r,{bds_card_body:function(){return e}});var u=t(6510),e=function(){function n(n){(0,u.r)(this,n)}return n.prototype.render=function(){return(0,u.h)("bds-grid",null,(0,u.h)("slot",null))},n}()}}]);
+//# sourceMappingURL=7444.8004e8d5.chunk.js.map
